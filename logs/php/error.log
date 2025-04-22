@@ -6,3 +6,18 @@
 [21-Apr-2025 00:25:42 UTC] PHP Parse error:  Unclosed '{' on line 3 in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 13
 [21-Apr-2025 01:27:09 UTC] PHP Parse error:  Unmatched ')' in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
 [22-Apr-2025 01:47:51 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[22-Apr-2025 02:45:27 UTC] PHP Parse error:  syntax error, unexpected identifier "min" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 34
+[22-Apr-2025 02:45:45 UTC] PHP Parse error:  syntax error, unexpected identifier "min" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 34
+[22-Apr-2025 03:15:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "bloginfo" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:4
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/javivill...')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/javivill...')
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#7 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[22-Apr-2025 15:01:57 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 17
+[22-Apr-2025 15:03:05 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 17
