@@ -5,3 +5,4 @@
 [21-Apr-2025 00:25:41 UTC] PHP Parse error:  Unclosed '{' on line 3 in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 13
 [21-Apr-2025 00:25:42 UTC] PHP Parse error:  Unclosed '{' on line 3 in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 13
 [21-Apr-2025 01:27:09 UTC] PHP Parse error:  Unmatched ')' in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[22-Apr-2025 01:47:51 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
