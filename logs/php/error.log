@@ -29,3 +29,5 @@ Stack trace:
 #3 {main}
   thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
 [24-Apr-2025 17:09:00 UTC] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 69
+[24-Apr-2025 19:47:59 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "all_items", expecting ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[24-Apr-2025 19:48:00 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "all_items", expecting ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php on line 8
