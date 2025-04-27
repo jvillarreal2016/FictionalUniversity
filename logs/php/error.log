@@ -87,3 +87,324 @@ Stack trace:
 [27-Apr-2025 20:13:35 UTC] PHP Parse error:  syntax error, unexpected token ")", expecting "(" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
 [27-Apr-2025 20:13:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
 [27-Apr-2025 20:13:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[27-Apr-2025 22:55:17 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:55:17 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:55:32 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:55:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:56:01 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:56:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/javivill...')
+#17 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:56:39 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:56:39 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:01 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/javivill...')
+#17 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:02 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:03 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:35 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:36 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:36 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:40 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:42 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:43 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 22:58:43 UTC] PHP Warning:  Attempt to read property "query_vars" on null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php on line 781
+[27-Apr-2025 22:58:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "AUTOSAVE_INTERVAL" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:1906
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_just_in_time_script_localization('')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php(2229): do_action('wp_print_script...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): wp_print_head_scripts('')
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(Array, Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php(6): wp_head()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(810): require_once('/Users/javivill...')
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/template.php(745): load_template('/Users/javivill...', true, Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/mu-plugins/single-program.php(3): get_header()
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(456): include_once('/Users/javivill...')
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(13): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#18 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/script-loader.php on line 1906
+[27-Apr-2025 23:08:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 29
