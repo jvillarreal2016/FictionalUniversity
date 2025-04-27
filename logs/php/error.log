@@ -47,3 +47,43 @@ Stack trace:
 #2 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
 #3 {main}
   thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[27-Apr-2025 20:05:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_adjust_queries" not found or invalid function name in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(1910): do_action_ref_array('pre_get_posts', Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(3949): WP_Query->get_posts()
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/post.php(2579): WP_Query->query(Array)
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/class-acf-internal-post-type.php(397): get_posts(Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/class-acf-internal-post-type.php(357): ACF_Internal_Post_Type->get_raw_posts()
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/post-types/class-acf-taxonomy.php(126): ACF_Internal_Post_Type->get_posts(Array)
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): ACF_Taxonomy->register_taxonomies(6)
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#10 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/acf.php(426): do_action('acf/init', 6)
+#12 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): ACF->init('')
+#13 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#15 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(727): do_action('init')
+#16 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#17 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#18 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/javivill...')
+#19 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[27-Apr-2025 20:10:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set() in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:26
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): university_adjust_queries(Object(WP_Query))
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(1910): do_action_ref_array('pre_get_posts', Array)
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-query.php(3949): WP_Query->get_posts()
+#5 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(701): WP_Query->query(Array)
+#6 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(821): WP->query_posts()
+#7 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#8 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#9 /Users/javivillarreal/Local Sites/fictional-university/app/public/index.php(17): require('/Users/javivill...')
+#10 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[27-Apr-2025 20:13:35 UTC] PHP Parse error:  syntax error, unexpected token ")", expecting "(" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[27-Apr-2025 20:13:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[27-Apr-2025 20:13:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
