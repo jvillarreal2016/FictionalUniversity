@@ -31,7 +31,7 @@
     ));
 
     register_post_type('professor', array(
-        'supports' => array('title', 'editor'),
+        'supports' => array('title', 'editor', 'thumbnail'),
         'public' => true,
         'show_in_rest' => true,
         'labels' => array(
