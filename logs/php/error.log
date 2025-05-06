@@ -627,3 +627,5 @@ Stack trace:
 [05-May-2025 19:55:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
 [05-May-2025 21:10:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
 [05-May-2025 21:10:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[06-May-2025 18:03:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[06-May-2025 18:03:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
