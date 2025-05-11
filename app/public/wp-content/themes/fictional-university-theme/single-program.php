@@ -48,7 +48,6 @@ while($relatedProfessors->have_posts()) {
 echo '</ul>';
 
 }
-
     wp_reset_postdata(); //resets global post data. Need this to run multiple queries on a single page
 
             $today = date('Ymd');
