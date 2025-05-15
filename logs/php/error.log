@@ -689,3 +689,21 @@ Stack trace:
 [15-May-2025 22:01:15 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 119
 [15-May-2025 22:01:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
 [15-May-2025 22:01:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[15-May-2025 22:07:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 136 and at least 2 expected in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php:121
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(136): add_filter('login_headerurl')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(695): include('/Users/javivill...')
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/javivill...')
+#5 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 121
+[15-May-2025 22:09:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 142 and at least 2 expected in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(142): add_action('login_enqueue')
+#1 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-settings.php(695): include('/Users/javivill...')
+#2 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-config.php(103): require_once('/Users/javivill...')
+#3 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/Users/javivill...')
+#4 /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/javivill...')
+#5 {main}
+  thrown in /Users/javivillarreal/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 441
